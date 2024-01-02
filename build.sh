@@ -8,7 +8,7 @@ libmpc-dev libmpfr-dev libisl-dev xz-utils unzip \
 texinfo patch bzip2 p7zip cmake make curl m4 gcc g++ -y
 
 # >> Create path
-VER="Wildy Sheverando"
+VER="$1"
 POWER="10"
 PTD="/build-gcc"
 SOURCE="/build-gcc/source"
