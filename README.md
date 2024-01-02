@@ -22,6 +22,14 @@ Simple bash script to compiling GCC for windows in Debian basse
 - Min 2 GB Ram [ Rec: 8 GB ]
 - Min 2 Core [ Rec: 8 Core ]
 
+# Test History
+- Build Machine [ Debian 12 ]
+- Result testing [ Windows 10 22H2 & Windows 11 23H2 ]
+- C++ Code Debug
+- C++ Code Building
+- C Code Debug
+- C Code Building
+
 # Usage
 ```bash
 cd /root
