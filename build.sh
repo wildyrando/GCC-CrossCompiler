@@ -31,7 +31,7 @@ export BINUTILS="https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
 export GCC="https://ftp.gnu.org/gnu/gcc/gcc-13.2.0/gcc-13.2.0.tar.xz"
 export MINGW="https://onboardcloud.dl.sourceforge.net/project/mingw-w64/mingw-w64/mingw-w64-release/mingw-w64-v11.0.1.zip"
 export GDB="https://ftp.gnu.org/gnu/gdb/gdb-14.1.tar.xz"
-export MAKE="https://ftp.gnu.org/gnu/make/make-4.4.tar.gz"
+export MAKES="https://ftp.gnu.org/gnu/make/make-4.4.tar.gz"
 
 function download_extract() {
     # zstd
@@ -95,7 +95,7 @@ function download_extract() {
     rm -rf GDB.temp
 
     # make
-    wget -O MAKE.temp $MAKE
+    wget -O MAKE.temp $MAKES
     tar -xvf MAKE.temp
     mv make-*/ make
     rm -rf MAKE.temp
