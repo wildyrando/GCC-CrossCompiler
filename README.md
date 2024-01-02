@@ -1,5 +1,5 @@
 # GCC CrossCompiler
-Simple bash script to compiling GCC for windows in Debian basse
+Simple bash script to compiling GCC for windows in Debian base [ Cross Compiling ]
 
 # Component details
 - ZSTD 1.5.5
