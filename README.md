@@ -1,6 +1,19 @@
 # GCC CrossCompiler
 Simple bash script to compiling GCC for windows in Debian basse
 
+# Component details
+- ZSTD 1.5.5
+- GMP 6.3.0
+- MPFR 4.2.1
+- MPC 1.3.1
+- ISL 0.26
+- EXPAT 2.5.0
+- BINUTILS 2.41
+- GCC 13.2.0
+- MINGW64 11.0.1
+- GDB 14.1
+- MAKE 4.4
+
 # Requirements
 - Ubuntu 20+
 - Debian 11+
