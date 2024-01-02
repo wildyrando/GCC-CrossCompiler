@@ -8,8 +8,8 @@ libmpc-dev libmpfr-dev libisl-dev xz-utils unzip \
 texinfo patch bzip2 p7zip cmake make curl m4 gcc g++ -y
 
 # >> Create path
-VER="<hai@wildyrando.com>"
-POWER="2"
+VER="Wildy Sheverando"
+POWER="10"
 PTD="/build-gcc"
 SOURCE="/build-gcc/source"
 BUILD="/build-gcc/build/x86_64-w64-mingw32"
@@ -333,9 +333,7 @@ function build_gcc_re() {
     --disable-werror                                                       \
     --disable-shared                                                       \
     --enable-static                                                        \
-    --enable-lto                                                           \
-    --enable-languages=c,c++,lto                                           \
-    --enable-libgomp                                                       \
+    --enable-languages=c,c++                                               \
     --enable-threads=posix                                                 \
     --enable-checking=release                                              \
     --enable-mingw-wildcard                                                \
