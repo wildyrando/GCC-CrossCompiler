@@ -8,8 +8,8 @@ libmpc-dev libmpfr-dev libisl-dev xz-utils unzip \
 texinfo patch bzip2 p7zip cmake make curl m4 gcc g++ -y
 
 # >> Create path
-VER="$1"
-POWER="10"
+VER="$2"
+POWER="$1"
 PTD="/build-gcc"
 SOURCE="/build-gcc/source"
 BUILD="/build-gcc/build/x86_64-w64-mingw32"
